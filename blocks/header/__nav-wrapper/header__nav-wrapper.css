@@ -1,0 +1,9 @@
+.header__nav-wrapper {
+  max-width: 48px;
+  height: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(255, 255, 255, 0.45);
+  border-radius: 8px;
+}
