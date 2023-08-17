@@ -1,0 +1,8 @@
+.header__navbar {
+  max-width: 169px;
+  width: 100%;
+  height: 56px;
+  margin-top: 16px;
+  display: flex;
+  column-gap: 40px;
+}

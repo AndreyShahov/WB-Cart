@@ -1,0 +1,19 @@
+.header__navbar-link {
+  width: 56px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.header__navbar-link:link {
+  color: white;
+  text-decoration: none;
+}
+
+.header__navbar-link:visited {
+  color: white;
+  text-decoration: none;
+}

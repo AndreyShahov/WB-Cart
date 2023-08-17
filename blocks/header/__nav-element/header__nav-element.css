@@ -2,6 +2,8 @@
   max-width: 170px;
   width: 100%;
   height: 56px;
+  padding-top: 16px;
+  padding-left: 24px;
   display: flex;
   justify-content: space-between;
 }

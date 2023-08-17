@@ -9,14 +9,38 @@
   <body class="root">
     <div class="page">
       <header class="header">
-        <div class="header__wrapper">
-          <div class="header__nav-element">
-            <div class="header__nav-wrapper">
-              <button class="button header__nav-btn"></button>
-            </div>
+        <div class="header__nav-element">
+          <div class="header__nav-wrapper">
+            <button class="button header__nav-btn"></button>
           </div>
+          <img src="./images/header-logo.svg" alt="Логотип" />
+        </div>
+        <div class="header__search">
+          <input class="header__input" type="search" placeholder="Я ищу..." />
+          <img
+            class="header__search-icon"
+            src="./images/search.svg"
+            alt="Поиск"
+          />
+        </div>
+        <div class="header__navbar">
+          <a class="header__navbar-link" href="#">
+            <img src="./images/profile.svg" alt="Профиль" height="30px" />
+            Профиль
+          </a>
+          <a class="header__navbar-link" href="#">
+            <img src="./images/cart-icon.svg" alt="Профиль" height="30px" />
+            <span class="header__counter">3</span>
+            Корзина
+          </a>
         </div>
       </header>
+      <main class="content">
+        <section class="cart">
+          <h1 class="cart__header">Корзина</h1>
+        </section>
+        <section class="order"></section>
+      </main>
     </div>
   </body>
 </html>

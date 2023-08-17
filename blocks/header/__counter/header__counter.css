@@ -1,0 +1,16 @@
+.header__counter {
+  max-width: 16px;
+  width: 100%;
+  height: 16px;
+  position: absolute;
+  top: -4px;
+  left: 32px;
+  background-color: #f55123;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 18px;
+}

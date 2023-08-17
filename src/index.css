@@ -9,3 +9,16 @@
 @import url(../blocks/header/__nav-wrapper/header__nav-wrapper.css);
 @import url(../blocks/header/__nav-btn/header__nav-btn.css);
 @import url(../blocks/button/button.css);
+@import url(../blocks/header/__search/header__search.css);
+@import url(../blocks/header/__input/header__input.css);
+@import url(../blocks/header/__search-icon/header__search-icon.css);
+@import url(../blocks/header/__navbar/header__navbar.css);
+@import url(../blocks/header/__navbar-link/header__navbar-link.css);
+@import url(../blocks/header/__counter/header__counter.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/cart/cart.css);
+@import url(../blocks/cart/__header/cart__header.css);
+
+@import url(../blocks/order/order.css);
