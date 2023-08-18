@@ -1,0 +1,10 @@
+.visible-checkbox {
+  display: inline-block;
+  max-width: 22px;
+  width: 100%;
+  min-height: 22px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  border-radius: 8px;
+}

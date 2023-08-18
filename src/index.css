@@ -20,5 +20,10 @@
 
 @import url(../blocks/cart/cart.css);
 @import url(../blocks/cart/__header/cart__header.css);
+@import url(../blocks/cart/__selector/cart__selector.css);
+@import url(../blocks/invisible-checkbox/invisible-checkbox.css);
+@import url(../blocks/visible-checkbox/visible-checkbox.css);
+@import url(../blocks/cart/__title/cart__title.css);
+@import url(../blocks/cart/__checkbox/cart__checkbox.css);
 
 @import url(../blocks/order/order.css);

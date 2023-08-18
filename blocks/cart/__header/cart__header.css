@@ -1,5 +1,8 @@
 .cart__header {
+  max-width: 114px;
   font-weight: 700;
   font-size: 28px;
   line-height: 36px;
+  letter-spacing: -1px;
+  color: #000;
 }
