@@ -1,0 +1,10 @@
+.in-stock__price-new {
+  margin: 0;
+  max-width: 70px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
+  letter-spacing: -1px;
+}

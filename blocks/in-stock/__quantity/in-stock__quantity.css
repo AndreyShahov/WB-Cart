@@ -1,0 +1,7 @@
+.in-stock__quantity {
+  max-width: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}

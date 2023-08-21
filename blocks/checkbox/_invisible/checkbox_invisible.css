@@ -1,4 +1,4 @@
-.invisible-checkbox {
+.checkbox_invisible {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -6,9 +6,9 @@
   clip-path: inset(0 0 0 0);
 }
 
-.invisible-checkbox:checked + .visible-checkbox {
+.checkbox_invisible:checked + .checkbox_visible {
   background: #cb11ab;
-  background-image: url(../../src/images/checkbox-active.svg);
+  background-image: url(../../../src/images/checkbox-active.svg);
   background-repeat: no-repeat;
   background-position: center;
 }

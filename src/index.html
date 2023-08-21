@@ -11,17 +11,13 @@
       <header class="header">
         <div class="header__nav-element">
           <div class="header__nav-wrapper">
-            <button class="button header__nav-btn"></button>
+            <button type="button" class="button header__nav-btn"></button>
           </div>
           <img src="./images/header-logo.svg" alt="Логотип" />
         </div>
         <div class="header__search">
           <input class="header__input" type="search" placeholder="Я ищу..." />
-          <img
-            class="header__search-icon"
-            src="./images/search.svg"
-            alt="Поиск"
-          />
+          <img class="header__search-icon" src="./images/search.svg" alt="Поиск" />
         </div>
         <div class="header__navbar">
           <a class="header__navbar-link" href="#">
@@ -36,16 +32,79 @@
         </div>
       </header>
       <main class="content">
-        <section class="cart">
+        <div class="cart">
           <h1 class="cart__header">Корзина</h1>
-          <div class="cart__selector">
-            <label class="cart__checkbox">
-              <input class="invisible-checkbox" type="checkbox" />
-              <span class="visible-checkbox"></span>
-            </label>
-            <h2 class="cart__title">Выбрать все</h2>
-          </div>
-        </section>
+          <section class="in-stock">
+            <article class="in-stock__selector">
+              <label class="checkbox">
+                <input class="checkbox_invisible" type="checkbox" />
+                <span class="checkbox_visible"></span>
+              </label>
+              <h2 class="in-stock__title">Выбрать все</h2>
+              <img
+                src="../src/images/accordion-icon.svg"
+                alt="Аккордеон"
+                width="20px"
+                height="20px"
+              />
+            </article>
+            <ul class="in-stock__list">
+              <li class="in-stock__list-item">
+                <div class="in-stock__good">
+                  <div class="in-stock__box">
+                    <label class="checkbox">
+                      <input class="checkbox_invisible" type="checkbox" />
+                      <span class="checkbox_visible"></span>
+                    </label>
+                    <img src="./images/t-shirt.jpg" class="in-stock__photo" alt="Футболка" />
+                  </div>
+                  <ul class="in-stock__description">
+                    <li>
+                      <h3 class="in-stock__header-item">Футболка UZcotton мужская</h3>
+                    </li>
+                    <li class="in-stock__wrapper">
+                      <p class="in-stock__color">Цвет: белый</p>
+                      <p class="in-stock__size">Размер: 56</p>
+                    </li>
+                    <li class="in-stock__store">
+                      <p class="in-stock__text">Коледино WB</p>
+                      <p class="in-stock__text">
+                        OOO Вайлдберриз
+                        <span><img src="./images/info-icon.svg" alt="Информмация" /></span>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <ul class="in-stock__container">
+                  <li class="in-stock__quantity">
+                    <div class="counter">
+                      <button type="button" class="button counter__minus">-</button>
+                      <input
+                        class="button counter__value"
+                        type="number"
+                        autocomplete="off"
+                        min="1"
+                      />
+                      <button type="button" class="button counter__plus">+</button>
+                    </div>
+                    <p class="in-stock__remains">Осталось 2 шт.</p>
+                    <div class="in-stock__btn">
+                      <button type="button" class="button in-stock__like-btn"></button>
+                      <button type="button" class="button in-stock__cart-btn"></button>
+                    </div>
+                  </li>
+                  <li class="in-stock__price">
+                    <div class="in-stock__cost">
+                      <span class="in-stock__price-new"> 522 </span>
+                      <span class="in-stock__currency">сом</span>
+                    </div>
+                    <div class="in-stock__price-old">1051&nbsp;сом</div>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </section>
+        </div>
         <section class="order"></section>
       </main>
     </div>

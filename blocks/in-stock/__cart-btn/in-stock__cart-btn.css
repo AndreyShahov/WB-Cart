@@ -1,0 +1,5 @@
+.in-stock__cart-btn {
+  background-image: url(../../../src/images/cart-btn.svg);
+  max-width: 20px;
+  width: 100%;
+}

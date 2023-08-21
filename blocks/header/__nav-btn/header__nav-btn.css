@@ -2,8 +2,6 @@
   max-width: 28px;
   width: 100%;
   min-height: 24px;
-  background-color: transparent;
   background-image: url("../../../src/images/header-nav-btn.svg");
-  background-repeat: no-repeat;
   align-self: center;
 }

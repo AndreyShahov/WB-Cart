@@ -1,0 +1,6 @@
+.in-stock__good {
+  max-width: 397px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

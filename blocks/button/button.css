@@ -1,4 +1,6 @@
 .button {
   padding: 0;
   border: none;
+  background-repeat: no-repeat;
+  background-color: transparent;
 }

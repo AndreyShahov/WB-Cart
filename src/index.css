@@ -3,6 +3,10 @@
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/checkbox/checkbox.css);
+@import url(../blocks/checkbox/_invisible/checkbox_invisible.css);
+@import url(../blocks/checkbox/_visible/checkbox_visible.css);
+
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__wrapper/header__wrapper.css);
 @import url(../blocks/header/__nav-element/header__nav-element.css);
@@ -20,10 +24,38 @@
 
 @import url(../blocks/cart/cart.css);
 @import url(../blocks/cart/__header/cart__header.css);
-@import url(../blocks/cart/__selector/cart__selector.css);
-@import url(../blocks/invisible-checkbox/invisible-checkbox.css);
-@import url(../blocks/visible-checkbox/visible-checkbox.css);
-@import url(../blocks/cart/__title/cart__title.css);
-@import url(../blocks/cart/__checkbox/cart__checkbox.css);
+
+@import url(../blocks/in-stock/in-stock.css);
+@import url(../blocks/in-stock/__selector/in-stock__selector.css);
+@import url(../blocks/in-stock/__title/in-stock__title.css);
+@import url(../blocks/in-stock/__list/in-stock__list.css);
+@import url(../blocks/in-stock/__list-item/in-stock__list-item.css);
+@import url(../blocks/in-stock/__good/in-stock__good.css);
+@import url(../blocks/in-stock/__description/in-stock__description.css);
+@import url(../blocks/in-stock/__header-item/in-stock__header-item.css);
+@import url(../blocks/in-stock/__color/in-stock__color.css);
+@import url(../blocks/in-stock/__size/in-stock__size.css);
+@import url(../blocks/in-stock/__wrapper/in-stock__wrapper.css);
+@import url(../blocks/in-stock/__store/in-stock__store.css);
+@import url(../blocks/in-stock/__text/in-stock__text.css);
+@import url(../blocks/in-stock/__box/in-stock__box.css);
+@import url(../blocks/in-stock/__photo/in-stock__photo.css);
+@import url(../blocks/in-stock/__container/in-stock__container.css);
+@import url(../blocks/in-stock/__quantity/in-stock__quantity.css);
+@import url(../blocks/in-stock/__price/in-stock__price.css);
+@import url(../blocks/in-stock/__counter/in-stock__counter.css);
+@import url(../blocks/in-stock/__btn/in-stock__btn.css);
+@import url(../blocks/in-stock/__remains/in-stock__remains.css);
+@import url(../blocks/in-stock/__like-btn/in-stock__like-btn.css);
+@import url(../blocks/in-stock/__cart-btn/in-stock__cart-btn.css);
+@import url(../blocks/in-stock/__price-new/in-stock__price-new.css);
+@import url(../blocks/in-stock/__price-old/in-stock__price-old.css);
+@import url(../blocks/in-stock/__currency/in-stock__currency.css);
+@import url(../blocks/in-stock/__cost/in-stock__cost.css);
+
+@import url(../blocks/counter/counter.css);
+@import url(../blocks/counter/__minus/counter__minus.css);
+@import url(../blocks/counter/__plus/counter__plus.css);
+@import url(../blocks/counter/__value/counter__value.css);
 
 @import url(../blocks/order/order.css);

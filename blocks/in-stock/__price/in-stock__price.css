@@ -1,0 +1,9 @@
+.in-stock__price {
+  max-width: 110px;
+  width: 100%;
+  min-height: 99px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  row-gap: 5px;
+}
