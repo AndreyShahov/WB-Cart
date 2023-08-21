@@ -8,5 +8,6 @@
   line-height: 16px;
   color: #9797af;
   text-decoration: line-through;
-  border-bottom: 1px dashed #9797af;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  cursor: pointer;
 }
