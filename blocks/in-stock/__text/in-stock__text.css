@@ -1,7 +1,10 @@
 .in-stock__text {
   margin: 0;
+  height: 16px;
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
   color: #9797af;
+  display: flex;
+  column-gap: 6px;
 }

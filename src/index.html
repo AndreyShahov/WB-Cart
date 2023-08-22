@@ -21,11 +21,11 @@
         </div>
         <div class="header__navbar">
           <a class="header__navbar-link" href="#">
-            <img src="./images/profile.svg" alt="Профиль" height="30px" />
+            <span class="header__pc-icon"></span>
             Профиль
           </a>
           <a class="header__navbar-link" href="#">
-            <img src="./images/cart-icon.svg" alt="Профиль" height="30px" />
+            <span class="header__basket-icon"></span>
             <span class="header__counter">3</span>
             Корзина
           </a>
@@ -69,8 +69,7 @@
                     <li class="in-stock__store">
                       <p class="in-stock__text">Коледино WB</p>
                       <p class="in-stock__text">
-                        OOO Вайлдберриз
-                        <span><img src="./images/info-icon.svg" alt="Информмация" /></span>
+                        OOO Вайлдберриз <span class="in-stock__info-icon"></span>
                       </p>
                     </li>
                   </ul>
@@ -78,14 +77,15 @@
                 <ul class="in-stock__container">
                   <li class="in-stock__quantity">
                     <div class="counter">
-                      <button type="button" class="button counter__minus">-</button>
+                      <button type="button" class="button counter__minus"></button>
                       <input
                         class="button counter__value"
                         type="number"
                         autocomplete="off"
                         min="1"
+                        maxlength="2"
                       />
-                      <button type="button" class="button counter__plus">+</button>
+                      <button type="button" class="button counter__plus"></button>
                     </div>
                     <p class="in-stock__remains">Осталось 2 шт.</p>
                     <div class="in-stock__btn">

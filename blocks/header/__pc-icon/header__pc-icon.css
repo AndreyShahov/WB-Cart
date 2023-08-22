@@ -1,0 +1,9 @@
+.header__pc-icon {
+  background-image: url(../../../src/images/profile.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 30px;
+  max-width: 28px;
+  width: 100%;
+  margin-top: 1px;
+}

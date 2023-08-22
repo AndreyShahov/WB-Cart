@@ -1,0 +1,9 @@
+.header__basket-icon {
+  background-image: url(../../../src/images/cart-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 30px;
+  max-width: 28px;
+  width: 100%;
+  margin-right: 10px;
+}

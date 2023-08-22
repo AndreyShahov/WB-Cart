@@ -19,6 +19,8 @@
 @import url(../blocks/header/__navbar/header__navbar.css);
 @import url(../blocks/header/__navbar-link/header__navbar-link.css);
 @import url(../blocks/header/__counter/header__counter.css);
+@import url(../blocks/header/__basket-icon/header__basket-icon.css);
+@import url(../blocks/header/__pc-icon/header__pc-icon.css);
 
 @import url(../blocks/content/content.css);
 
@@ -52,6 +54,7 @@
 @import url(../blocks/in-stock/__price-old/in-stock__price-old.css);
 @import url(../blocks/in-stock/__currency/in-stock__currency.css);
 @import url(../blocks/in-stock/__cost/in-stock__cost.css);
+@import url(../blocks/in-stock/__info-icon/in-stock__info-icon.css);
 
 @import url(../blocks/counter/counter.css);
 @import url(../blocks/counter/__minus/counter__minus.css);
