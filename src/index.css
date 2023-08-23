@@ -8,7 +8,6 @@
 @import url(../blocks/checkbox/_visible/checkbox_visible.css);
 
 @import url(../blocks/header/header.css);
-@import url(../blocks/header/__wrapper/header__wrapper.css);
 @import url(../blocks/header/__nav-element/header__nav-element.css);
 @import url(../blocks/header/__nav-wrapper/header__nav-wrapper.css);
 @import url(../blocks/header/__nav-btn/header__nav-btn.css);
@@ -45,7 +44,6 @@
 @import url(../blocks/in-stock/__container/in-stock__container.css);
 @import url(../blocks/in-stock/__quantity/in-stock__quantity.css);
 @import url(../blocks/in-stock/__price/in-stock__price.css);
-@import url(../blocks/in-stock/__counter/in-stock__counter.css);
 @import url(../blocks/in-stock/__btn/in-stock__btn.css);
 @import url(../blocks/in-stock/__remains/in-stock__remains.css);
 @import url(../blocks/in-stock/__like-btn/in-stock__like-btn.css);

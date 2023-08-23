@@ -48,68 +48,71 @@
                 height="20px"
               />
             </article>
-            <ul class="in-stock__list">
-              <li class="in-stock__list-item">
-                <div class="in-stock__good">
-                  <div class="in-stock__box">
-                    <label class="checkbox">
-                      <input class="checkbox_invisible" type="checkbox" />
-                      <span class="checkbox_visible"></span>
-                    </label>
-                    <img src="./images/t-shirt.jpg" class="in-stock__photo" alt="Футболка" />
-                  </div>
-                  <ul class="in-stock__description">
-                    <li>
-                      <h3 class="in-stock__header-item">Футболка UZcotton мужская</h3>
-                    </li>
-                    <li class="in-stock__wrapper">
-                      <p class="in-stock__color">Цвет: белый</p>
-                      <p class="in-stock__size">Размер: 56</p>
-                    </li>
-                    <li class="in-stock__store">
-                      <p class="in-stock__text">Коледино WB</p>
-                      <p class="in-stock__text">
-                        OOO Вайлдберриз <span class="in-stock__info-icon"></span>
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-                <ul class="in-stock__container">
-                  <li class="in-stock__quantity">
-                    <div class="counter">
-                      <button type="button" class="button counter__minus"></button>
-                      <input
-                        class="button counter__value"
-                        type="number"
-                        autocomplete="off"
-                        min="1"
-                        maxlength="2"
-                      />
-                      <button type="button" class="button counter__plus"></button>
-                    </div>
-                    <p class="in-stock__remains">Осталось 2 шт.</p>
-                    <div class="in-stock__btn">
-                      <button type="button" class="button in-stock__like-btn"></button>
-                      <button type="button" class="button in-stock__cart-btn"></button>
-                    </div>
-                  </li>
-                  <li class="in-stock__price">
-                    <div class="in-stock__cost">
-                      <span class="in-stock__price-new"> 522 </span>
-                      <span class="in-stock__currency">сом</span>
-                    </div>
-                    <div class="in-stock__price-old">
-                      <span>1051</span>
-                      <span>сом</span>
-                    </div>
-                  </li>
-                </ul>
-              </li>
-            </ul>
+            <ul class="in-stock__list"></ul>
           </section>
         </div>
         <section class="order"></section>
       </main>
+      <template id="in-stock__list-item">
+        <li class="in-stock__list-item">
+          <div class="in-stock__good">
+            <div class="in-stock__box">
+              <label class="checkbox">
+                <input class="checkbox_invisible" type="checkbox" />
+                <span class="checkbox_visible"></span>
+              </label>
+              <img class="in-stock__photo" />
+            </div>
+            <ul class="in-stock__description">
+              <li>
+                <h3 class="in-stock__header-item"></h3>
+              </li>
+              <li class="in-stock__wrapper">
+                <p class="in-stock__color"></p>
+                <p class="in-stock__size"></p>
+              </li>
+              <li class="in-stock__store">
+                <p class="in-stock__text" id="first"></p>
+                <p class="in-stock__text" id="second">
+                  <span class="in-stock__info-icon"></span>
+                </p>
+              </li>
+            </ul>
+          </div>
+          <ul class="in-stock__container">
+            <li class="in-stock__quantity">
+              <div class="counter">
+                <button type="button" class="button counter__minus"></button>
+                <input
+                  class="button counter__value"
+                  type="number"
+                  autocomplete="off"
+                  min="1"
+                  maxlength="2"
+                />
+                <button type="button" class="button counter__plus"></button>
+              </div>
+              <p class="in-stock__remains"></p>
+              <div class="in-stock__btn">
+                <button type="button" class="button in-stock__like-btn"></button>
+                <button type="button" class="button in-stock__cart-btn"></button>
+              </div>
+            </li>
+            <li class="in-stock__price">
+              <div class="in-stock__cost">
+                <span class="in-stock__price-new"></span>
+                <span class="in-stock__currency">сом</span>
+              </div>
+              <div class="in-stock__price-old">
+                <span id="cost"></span>
+                <span>сом</span>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </template>
     </div>
+
+    <script type="module" src="./components/index.js"></script>
   </body>
 </html>
