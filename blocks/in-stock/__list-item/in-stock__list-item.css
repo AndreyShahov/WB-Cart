@@ -1,6 +1,5 @@
 .in-stock__list-item {
   width: 100%;
-  /* margin-top: 12px; */
   display: flex;
   justify-content: space-between;
 }

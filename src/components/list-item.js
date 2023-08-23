@@ -11,6 +11,7 @@ function createListItem(item) {
   const remains = newItem.querySelector(".in-stock__remains");
   const priceNew = newItem.querySelector(".in-stock__price-new");
   const priceOld = newItem.querySelector("#cost");
+  const wrapper = newItem.querySelector(".in-stock__wrapper");
 
   image.src = item.src;
   image.alt = item.header;
@@ -23,10 +24,26 @@ function createListItem(item) {
   priceNew.textContent = item.priceNew;
   priceOld.textContent = item.priceOld;
 
+  setListItem(priceNew, remains, color, wrapper);
+
   return newItem;
 }
 
 export function addItem(item, container) {
   const newItem = createListItem(item);
   container.append(newItem);
+}
+
+function setListItem(priceNew, remains, color, wrapper) {
+  if (priceNew.textContent.length > 3) {
+    priceNew.style = "font-size: 16px;line-height: 24px";
+  }
+
+  if (remains.textContent == "") {
+    remains.remove();
+  }
+
+  if (color.textContent == "") {
+    wrapper.remove();
+  }
 }
