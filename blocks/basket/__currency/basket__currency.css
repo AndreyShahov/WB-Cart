@@ -1,0 +1,9 @@
+.basket__currency {
+  max-width: 35px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  text-align: end;
+}

@@ -1,0 +1,11 @@
+.basket__price-old {
+  min-height: 17px;
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #9797af;
+  text-decoration: line-through;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}

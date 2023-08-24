@@ -1,4 +1,4 @@
 import { addItem } from "./list-item.js";
-import { container, items } from "./data.js";
+import { containerFirst, containerSecond, items } from "./data.js";
 
-items.forEach((item) => addItem(item, container));
+items.forEach((item) => addItem(item, containerFirst, containerSecond));

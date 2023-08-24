@@ -34,53 +34,68 @@
       <main class="content">
         <div class="cart">
           <h1 class="cart__header">Корзина</h1>
-          <section class="in-stock">
-            <article class="in-stock__selector">
-              <label class="checkbox">
-                <input class="checkbox_invisible" type="checkbox" />
-                <span class="checkbox_visible"></span>
-              </label>
-              <h2 class="in-stock__title">Выбрать все</h2>
-              <img
-                src="../src/images/accordion-icon.svg"
-                alt="Аккордеон"
-                width="20px"
-                height="20px"
-              />
-            </article>
-            <ul class="in-stock__list"></ul>
-          </section>
+          <div class="basket-form">
+            <section class="basket">
+              <article class="basket__selector">
+                <label class="checkbox">
+                  <input class="checkbox_invisible" type="checkbox" />
+                  <span class="checkbox_visible"></span>
+                </label>
+                <h2 class="basket__title">Выбрать все</h2>
+                <img
+                  src="../src/images/accordion-icon.svg"
+                  alt="Аккордеон"
+                  width="20px"
+                  height="20px"
+                />
+              </article>
+              <ul class="basket__list basket__list_availability"></ul>
+            </section>
+            <section class="basket">
+              <article class="basket__selector">
+                <h2 class="basket__title basket__title_unavailability">Отсутствуют · 3 товара</h2>
+                <img
+                  src="../src/images/accordion-icon.svg"
+                  alt="Аккордеон"
+                  width="20px"
+                  height="20px"
+                />
+              </article>
+              <ul class="basket__list basket__list_unavailability"></ul>
+            </section>
+          </div>
         </div>
         <section class="order"></section>
       </main>
-      <template id="in-stock__list-item">
-        <li class="in-stock__list-item">
-          <div class="in-stock__good">
-            <div class="in-stock__box">
+      <template id="basket__list-item">
+        <li class="basket__list-item">
+          <div class="basket__good">
+            <div class="basket__box">
               <label class="checkbox">
                 <input class="checkbox_invisible" type="checkbox" />
                 <span class="checkbox_visible"></span>
               </label>
-              <img class="in-stock__photo" />
+              <img class="basket__photo" />
             </div>
-            <ul class="in-stock__description">
+            <ul class="basket__description">
               <li>
-                <h3 class="in-stock__header-item"></h3>
+                <h3 class="basket__header-item"></h3>
               </li>
-              <li class="in-stock__wrapper">
-                <p class="in-stock__color"></p>
-                <p class="in-stock__size"></p>
+              <li class="basket__wrapper">
+                <p class="basket__color"></p>
+                <p class="basket__size"></p>
               </li>
-              <li class="in-stock__store">
-                <p class="in-stock__text" id="first"></p>
-                <p class="in-stock__text" id="second">
-                  <span class="in-stock__info-icon"></span>
-                </p>
+              <li class="basket__store">
+                <p class="basket__text" id="first"></p>
+                <div class="basket__title-box">
+                  <p class="basket__text" id="second"></p>
+                  <span class="basket__info-icon"></span>
+                </div>
               </li>
             </ul>
           </div>
-          <ul class="in-stock__container">
-            <li class="in-stock__quantity">
+          <ul class="basket__container">
+            <li class="basket__quantity">
               <div class="counter">
                 <button type="button" class="button counter__minus"></button>
                 <input
@@ -92,20 +107,46 @@
                 />
                 <button type="button" class="button counter__plus"></button>
               </div>
-              <p class="in-stock__remains"></p>
-              <div class="in-stock__btn">
-                <button type="button" class="button in-stock__like-btn"></button>
-                <button type="button" class="button in-stock__cart-btn"></button>
+              <p class="basket__remains"></p>
+              <div class="basket__btn">
+                <button type="button" class="button basket__like-btn"></button>
+                <button type="button" class="button basket__cart-btn"></button>
               </div>
             </li>
-            <li class="in-stock__price">
-              <div class="in-stock__cost">
-                <span class="in-stock__price-new"></span>
-                <span class="in-stock__currency">сом</span>
+            <li class="basket__price">
+              <div class="basket__cost">
+                <span class="basket__price-new"></span>
+                <span class="basket__currency">сом</span>
               </div>
-              <div class="in-stock__price-old">
+              <div class="basket__price-old">
                 <span id="cost"></span>
                 <span>сом</span>
+              </div>
+            </li>
+          </ul>
+        </li>
+      </template>
+      <template id="basket__list-item_unavailability">
+        <li class="basket__list-item">
+          <div class="basket__good">
+            <div class="basket__box">
+              <img class="basket__photo" />
+            </div>
+            <ul class="basket__description">
+              <li>
+                <h3 class="basket__header-item"></h3>
+              </li>
+              <li class="basket__wrapper">
+                <p class="basket__color"></p>
+                <p class="basket__size"></p>
+              </li>
+            </ul>
+          </div>
+          <ul class="basket__container">
+            <li class="basket__quantity">
+              <div class="basket__btn">
+                <button type="button" class="button basket__like-btn"></button>
+                <button type="button" class="button basket__cart-btn"></button>
               </div>
             </li>
           </ul>

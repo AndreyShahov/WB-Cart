@@ -1,0 +1,9 @@
+.basket__info-icon {
+  display: inline-block;
+  max-width: 16px;
+  width: 100%;
+  min-height: 16px;
+  background-image: url(../../../src/images/info-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}

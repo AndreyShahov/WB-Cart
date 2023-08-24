@@ -1,0 +1,9 @@
+.basket__title {
+  margin: 0;
+  max-width: 827px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}

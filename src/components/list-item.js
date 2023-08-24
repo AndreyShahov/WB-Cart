@@ -1,17 +1,17 @@
-import { listItemTemplate } from "./data.js";
+import { listItemTemplate, unavailabilityItemTemplate } from "./data.js";
 
 function createListItem(item) {
   const newItem = listItemTemplate.cloneNode(true);
-  const image = newItem.querySelector(".in-stock__photo");
-  const headerItem = newItem.querySelector(".in-stock__header-item");
-  const color = newItem.querySelector(".in-stock__color");
-  const size = newItem.querySelector(".in-stock__size");
+  const image = newItem.querySelector(".basket__photo");
+  const headerItem = newItem.querySelector(".basket__header-item");
+  const color = newItem.querySelector(".basket__color");
+  const size = newItem.querySelector(".basket__size");
   const textFirst = newItem.querySelector("#first");
   const textSecond = newItem.querySelector("#second");
-  const remains = newItem.querySelector(".in-stock__remains");
-  const priceNew = newItem.querySelector(".in-stock__price-new");
+  const remains = newItem.querySelector(".basket__remains");
+  const priceNew = newItem.querySelector(".basket__price-new");
   const priceOld = newItem.querySelector("#cost");
-  const wrapper = newItem.querySelector(".in-stock__wrapper");
+  const wrapper = newItem.querySelector(".basket__wrapper");
 
   image.src = item.src;
   image.alt = item.header;
@@ -29,9 +29,30 @@ function createListItem(item) {
   return newItem;
 }
 
-export function addItem(item, container) {
+function createUnavailabilityItem(item) {
+  const newItem = unavailabilityItemTemplate.cloneNode(true);
+  const image = newItem.querySelector(".basket__photo");
+  const headerItem = newItem.querySelector(".basket__header-item");
+  const color = newItem.querySelector(".basket__color");
+  const size = newItem.querySelector(".basket__size");
+  const box = newItem.querySelector(".basket__box");
+
+  image.src = item.src;
+  image.alt = item.header;
+  headerItem.textContent = item.header;
+  color.textContent = item.color;
+  size.textContent = item.size;
+  box.style = "max-width: 72px";
+  headerItem.style = "max-width: 309px";
+
+  return newItem;
+}
+
+export function addItem(item, containerFirst, containerSecond) {
   const newItem = createListItem(item);
-  container.append(newItem);
+  const unavailabilityItem = createUnavailabilityItem(item);
+  containerFirst.append(newItem);
+  containerSecond.append(unavailabilityItem);
 }
 
 function setListItem(priceNew, remains, color, wrapper) {

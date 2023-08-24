@@ -1,8 +1,12 @@
 export const listItemTemplate = document
-  .querySelector("#in-stock__list-item")
-  .content.querySelector(".in-stock__list-item");
+  .querySelector("#basket__list-item")
+  .content.querySelector(".basket__list-item");
+export const unavailabilityItemTemplate = document
+  .querySelector("#basket__list-item_unavailability")
+  .content.querySelector(".basket__list-item");
 
-export const container = document.querySelector(".in-stock__list");
+export const containerFirst = document.querySelector(".basket__list_availability");
+export const containerSecond = document.querySelector(".basket__list_unavailability");
 
 export const items = [
   {
