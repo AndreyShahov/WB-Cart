@@ -1,0 +1,9 @@
+.section-delivery__office-hours {
+  display: flex;
+  justify-content: space-between;
+  max-width: 178px;
+  width: 100%;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+}

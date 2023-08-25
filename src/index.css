@@ -27,7 +27,12 @@
 @import url(../blocks/cart/__header/cart__header.css);
 
 @import url(../blocks/basket-form/basket-form.css);
+@import url(../blocks/basket-form/__wrapper/basket-form__wrapper.css);
+@import url(../blocks/basket-form/__section/basket-form__section.css);
+
 @import url(../blocks/basket/basket.css);
+@import url(../blocks/basket/_type/basket_type_active.css);
+@import url(../blocks/basket/_type/basket_type_inactive.css);
 @import url(../blocks/basket/__selector/basket__selector.css);
 @import url(../blocks/basket/__title/basket__title.css);
 @import url(../blocks/basket/__list/basket__list.css);
@@ -58,10 +63,28 @@
 @import url(../blocks/basket/__list/_unavailability/basket__list_unavailability.css);
 @import url(../blocks/basket/__list/_availability/basket__list_availability.css);
 @import url(../blocks/basket/__title-box/basket__title-box.css);
+@import url(../blocks/basket/__header-item/_inactive/basket__header-item_inactive.css);
+@import url(../blocks/basket/__color/_inactive/basket__color_inactive.css);
+@import url(../blocks/basket/__size/_inactive/basket__size_inactive.css);
 
 @import url(../blocks/counter/counter.css);
 @import url(../blocks/counter/__minus/counter__minus.css);
 @import url(../blocks/counter/__plus/counter__plus.css);
 @import url(../blocks/counter/__value/counter__value.css);
+
+@import url(../blocks/section-delivery/secion-delivery.css);
+@import url(../blocks/section-delivery/__wrapper/section-delivery__wrapper.css);
+@import url(../blocks/section-delivery/__header/section-delivery__header.css);
+@import url(../blocks/section-delivery/__btn-edit/section-delivery__btn-edit.css);
+@import url(../blocks/section-delivery/__box/section-delivery__box.css);
+@import url(../blocks/section-delivery/__address/section-delivery__address.css);
+@import url(../blocks/section-delivery/__label/section-delivery__label.css);
+@import url(../blocks/section-delivery/__office-hours/section-delivery__office-hours.css);
+@import url(../blocks/section-delivery/__cost/section-delivery__cost.css);
+@import url(../blocks/section-delivery/__item/section-delivery__item.css);
+@import url(../blocks/section-delivery/__rate/section-delivery__rate.css);
+@import url(../blocks/section-delivery/__list/section-delivery__list.css);
+@import url(../blocks/section-delivery/__photos/section-delivery__photos.css);
+@import url(../blocks/section-delivery/__photo/section-delivery__photo.css);
 
 @import url(../blocks/order/order.css);

@@ -1,0 +1,15 @@
+.section-delivery__rate {
+  display: flex;
+  align-items: center;
+}
+
+.section-delivery__rate::before {
+  content: "";
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+  background-image: url(../../../src/images/rate-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}

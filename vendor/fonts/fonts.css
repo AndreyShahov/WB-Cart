@@ -3,7 +3,15 @@
   font-style: normal;
   font-weight: 400;
   font-display: auto;
-  src: url("Segoe\ UI.ttf") format("ttf");
+  src: url("SegoeUI.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-display: auto;
+  src: url("SegoeUI-SemiBold.woff") format("woff");
 }
 
 @font-face {
@@ -11,5 +19,5 @@
   font-style: normal;
   font-weight: 700;
   font-display: auto;
-  src: url("Segoe\ UI\ Bold.ttf") format("ttf");
+  src: url("SegoeUI-Bold.woff") format("woff");
 }

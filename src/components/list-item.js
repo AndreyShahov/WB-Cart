@@ -37,7 +37,7 @@ function createUnavailabilityItem(item) {
   const size = newItem.querySelector(".basket__size");
   const box = newItem.querySelector(".basket__box");
 
-  image.src = item.src;
+  image.src = item.srcInActive;
   image.alt = item.header;
   headerItem.textContent = item.header;
   color.textContent = item.color;
@@ -53,6 +53,19 @@ export function addItem(item, containerFirst, containerSecond) {
   const unavailabilityItem = createUnavailabilityItem(item);
   containerFirst.append(newItem);
   containerSecond.append(unavailabilityItem);
+}
+
+export function addPhoto(src, container) {
+  const img = document.createElement("img");
+  img.src = src;
+  img.width = "40";
+  img.height = "56";
+
+  const li = document.createElement("li");
+  li.className = "section-delivery__photo";
+  li.append(img);
+
+  container.append(li);
 }
 
 function setListItem(priceNew, remains, color, wrapper) {

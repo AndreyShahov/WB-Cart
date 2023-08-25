@@ -7,10 +7,13 @@ export const unavailabilityItemTemplate = document
 
 export const containerFirst = document.querySelector(".basket__list_availability");
 export const containerSecond = document.querySelector(".basket__list_unavailability");
+export const photoContainerFirst = document.querySelector("#photosFirst");
+export const photoContainerSecond = document.querySelector("#photosSecond");
 
 export const items = [
   {
     src: "./images/t-shirt.jpg",
+    srcInActive: "./images/t-shirt-inactive.jpg",
     header: "Футболка UZcotton мужская",
     color: "Цвет: белый",
     size: "Размер: 56",
@@ -22,6 +25,7 @@ export const items = [
   },
   {
     src: "./images/case.jpg",
+    srcInActive: "./images/case-inactive.jpg",
     header:
       "Силиконовый чехол картхолдер (отверстия) для карт, прозрачный кейс бампер на Apple iPhone XR, MobiSafe",
     color: "Цвет: прозрачный",
@@ -34,6 +38,7 @@ export const items = [
   },
   {
     src: "./images/pencils.jpg",
+    srcInActive: "./images/pencils-inactive.jpg",
     header: `Карандаши цветные Faber-Castell "Замок", набор 24 цвета, заточенные, шестигранные, Faber-Castell`,
     color: "",
     size: "",
@@ -44,3 +49,11 @@ export const items = [
     priceOld: "950",
   },
 ];
+
+export const photoListFirst = [
+  "./images/t-shirt-mini.jpg",
+  "./images/case-mini.jpg",
+  "./images/pencils-mini.jpg",
+];
+
+export const photoListSecond = ["./images/case-mini.jpg"];

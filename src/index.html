@@ -35,7 +35,7 @@
         <div class="cart">
           <h1 class="cart__header">Корзина</h1>
           <div class="basket-form">
-            <section class="basket">
+            <section class="basket basket_type_active">
               <article class="basket__selector">
                 <label class="checkbox">
                   <input class="checkbox_invisible" type="checkbox" />
@@ -51,7 +51,7 @@
               </article>
               <ul class="basket__list basket__list_availability"></ul>
             </section>
-            <section class="basket">
+            <section class="basket basket_type_inactive">
               <article class="basket__selector">
                 <h2 class="basket__title basket__title_unavailability">Отсутствуют · 3 товара</h2>
                 <img
@@ -63,6 +63,40 @@
               </article>
               <ul class="basket__list basket__list_unavailability"></ul>
             </section>
+            <div class="basket-form__wrapper">
+              <section class="basket-form__section section-delivery">
+                <div class="section-delivery__wrapper">
+                  <h2 class="section-delivery__header">Способ доставки</h2>
+                  <button type="button" class="button section-delivery__btn-edit">Изменить</button>
+                </div>
+                <ul class="section-delivery__box">
+                  <li class="section-delivery__address">
+                    <span class="section-delivery__label">Пункт выдачи</span>
+                    <div>
+                      <span>Бишкек, улица Ахматбека Суюмбаева, 12/1</span>
+                      <span class="section-delivery__office-hours">
+                        <span class="section-delivery__rate">4.99</span>
+                        Ежедневно с 10 до 21
+                      </span>
+                    </div>
+                  </li>
+                  <li class="section-delivery__cost">
+                    <span class="section-delivery__label">Стоимость доставки</span>
+                    <span>Бесплатно</span>
+                  </li>
+                  <li class="section-delivery__list">
+                    <div class="section-delivery__item">
+                      <span class="section-delivery__label">5—6 февраля</span>
+                      <ul class="section-delivery__photos" id="photosFirst"></ul>
+                    </div>
+                    <div class="section-delivery__item">
+                      <span class="section-delivery__label">7—8 февраля</span>
+                      <ul class="section-delivery__photos" id="photosSecond"></ul>
+                    </div>
+                  </li>
+                </ul>
+              </section>
+            </div>
           </div>
         </div>
         <section class="order"></section>
@@ -134,11 +168,11 @@
             </div>
             <ul class="basket__description">
               <li>
-                <h3 class="basket__header-item"></h3>
+                <h3 class="basket__header-item basket__header-item_inactive"></h3>
               </li>
               <li class="basket__wrapper">
-                <p class="basket__color"></p>
-                <p class="basket__size"></p>
+                <p class="basket__color basket__color_inactive"></p>
+                <p class="basket__size basket__size_inactive"></p>
               </li>
             </ul>
           </div>
