@@ -51,9 +51,9 @@ export const items = [
 ];
 
 export const photoListFirst = [
-  "./images/t-shirt-mini.jpg",
-  "./images/case-mini.jpg",
-  "./images/pencils-mini.jpg",
+  { src: "./images/t-shirt-mini.jpg", number: 0 },
+  { src: "./images/case-mini.jpg", number: 184 },
+  { src: "./images/pencils-mini.jpg", number: 2 },
 ];
 
-export const photoListSecond = ["./images/case-mini.jpg"];
+export const photoListSecond = [{ src: "./images/case-mini.jpg", number: 16 }];

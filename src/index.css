@@ -12,12 +12,12 @@
 @import url(../blocks/header/__nav-wrapper/header__nav-wrapper.css);
 @import url(../blocks/header/__nav-btn/header__nav-btn.css);
 @import url(../blocks/button/button.css);
+@import url(../blocks/header/__counter/header__counter.css);
 @import url(../blocks/header/__search/header__search.css);
 @import url(../blocks/header/__input/header__input.css);
 @import url(../blocks/header/__search-icon/header__search-icon.css);
 @import url(../blocks/header/__navbar/header__navbar.css);
 @import url(../blocks/header/__navbar-link/header__navbar-link.css);
-@import url(../blocks/header/__counter/header__counter.css);
 @import url(../blocks/header/__basket-icon/header__basket-icon.css);
 @import url(../blocks/header/__pc-icon/header__pc-icon.css);
 
@@ -72,7 +72,7 @@
 @import url(../blocks/counter/__plus/counter__plus.css);
 @import url(../blocks/counter/__value/counter__value.css);
 
-@import url(../blocks/section-delivery/secion-delivery.css);
+@import url(../blocks/section-delivery/section-delivery.css);
 @import url(../blocks/section-delivery/__wrapper/section-delivery__wrapper.css);
 @import url(../blocks/section-delivery/__header/section-delivery__header.css);
 @import url(../blocks/section-delivery/__btn-edit/section-delivery__btn-edit.css);
@@ -86,5 +86,8 @@
 @import url(../blocks/section-delivery/__list/section-delivery__list.css);
 @import url(../blocks/section-delivery/__photos/section-delivery__photos.css);
 @import url(../blocks/section-delivery/__photo/section-delivery__photo.css);
+@import url(../blocks/section-delivery/__counter/section-delivery__counter.css);
+@import url(../blocks/section-delivery/__cost-shipping/section-delivery__cost-shipping.css);
+@import url(../blocks/section-delivery/__fragment/section-delivery__fragment.css);
 
 @import url(../blocks/order/order.css);

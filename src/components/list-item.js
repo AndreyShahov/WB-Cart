@@ -55,7 +55,7 @@ export function addItem(item, containerFirst, containerSecond) {
   containerSecond.append(unavailabilityItem);
 }
 
-export function addPhoto(src, container) {
+export function addPhoto(src, container, number) {
   const img = document.createElement("img");
   img.src = src;
   img.width = "40";
@@ -64,6 +64,14 @@ export function addPhoto(src, container) {
   const li = document.createElement("li");
   li.className = "section-delivery__photo";
   li.append(img);
+
+  const counter = document.createElement("span");
+  counter.className = "section-delivery__counter";
+  counter.textContent = number;
+
+  setCounter(counter);
+
+  li.append(counter);
 
   container.append(li);
 }
@@ -79,5 +87,15 @@ function setListItem(priceNew, remains, color, wrapper) {
 
   if (color.textContent == "") {
     wrapper.remove();
+  }
+}
+
+function setCounter(counter) {
+  if (counter.textContent.length >= 2) {
+    counter.style = "padding: 1px 4px 0px 4px";
+  }
+
+  if (counter.textContent == 0) {
+    counter.style = "visibility: hidden";
   }
 }

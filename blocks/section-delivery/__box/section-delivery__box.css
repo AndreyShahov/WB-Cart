@@ -1,6 +1,7 @@
 .section-delivery__box {
   margin: 0;
   padding: 0;
+  margin-bottom: 24px;
   list-style-type: none;
   display: flex;
   flex-direction: column;

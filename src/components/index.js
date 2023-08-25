@@ -11,5 +11,5 @@ import {
 
 items.forEach((item) => addItem(item, containerFirst, containerSecond));
 
-photoListFirst.forEach((src) => addPhoto(src, photoContainerFirst));
-photoListSecond.forEach((src) => addPhoto(src, photoContainerSecond));
+photoListFirst.forEach((item) => addPhoto(item.src, photoContainerFirst, item.number));
+photoListSecond.forEach((item) => addPhoto(item.src, photoContainerSecond, item.number));

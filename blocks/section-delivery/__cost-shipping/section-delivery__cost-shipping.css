@@ -1,0 +1,20 @@
+.section-delivery__cost-shipping {
+  margin: 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+
+.section-delivery__cost-shipping::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  margin-right: 8px;
+  background-image: url(../../../src/images/price-shipping-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
