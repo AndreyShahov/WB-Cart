@@ -1,0 +1,25 @@
+.section-payment {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.section-payment::before {
+  content: "";
+  width: 32px;
+  height: 24px;
+  margin-right: 8px;
+  background-image: url(../.././src/images/cardMir.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.section-payment::after {
+  content: "01/30";
+  margin-left: 12px;
+}

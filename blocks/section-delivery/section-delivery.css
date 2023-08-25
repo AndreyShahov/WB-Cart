@@ -1,0 +1,9 @@
+.section-delivery {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}

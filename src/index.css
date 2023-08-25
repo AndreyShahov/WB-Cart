@@ -28,7 +28,6 @@
 
 @import url(../blocks/basket-form/basket-form.css);
 @import url(../blocks/basket-form/__wrapper/basket-form__wrapper.css);
-@import url(../blocks/basket-form/__section/basket-form__section.css);
 
 @import url(../blocks/basket/basket.css);
 @import url(../blocks/basket/_type/basket_type_active.css);
@@ -72,11 +71,12 @@
 @import url(../blocks/counter/__plus/counter__plus.css);
 @import url(../blocks/counter/__value/counter__value.css);
 
+@import url(../blocks/section/section.css);
+@import url(../blocks/section/__wrapper/section__wrapper.css);
+@import url(../blocks/section/__header/section__header.css);
+@import url(../blocks/section/__btn-edit/section__btn-edit.css);
+
 @import url(../blocks/section-delivery/section-delivery.css);
-@import url(../blocks/section-delivery/__wrapper/section-delivery__wrapper.css);
-@import url(../blocks/section-delivery/__header/section-delivery__header.css);
-@import url(../blocks/section-delivery/__btn-edit/section-delivery__btn-edit.css);
-@import url(../blocks/section-delivery/__box/section-delivery__box.css);
 @import url(../blocks/section-delivery/__address/section-delivery__address.css);
 @import url(../blocks/section-delivery/__label/section-delivery__label.css);
 @import url(../blocks/section-delivery/__office-hours/section-delivery__office-hours.css);
@@ -89,5 +89,8 @@
 @import url(../blocks/section-delivery/__counter/section-delivery__counter.css);
 @import url(../blocks/section-delivery/__cost-shipping/section-delivery__cost-shipping.css);
 @import url(../blocks/section-delivery/__fragment/section-delivery__fragment.css);
+
+@import url(../blocks/section-payment/section-payment.css);
+@import url(../blocks/section-payment/__text/section-payment__text.css);
 
 @import url(../blocks/order/order.css);
