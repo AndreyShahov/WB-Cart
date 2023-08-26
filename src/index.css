@@ -93,4 +93,15 @@
 @import url(../blocks/section-payment/section-payment.css);
 @import url(../blocks/section-payment/__text/section-payment__text.css);
 
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__input/_field/form__input_field_e-mail.css);
+@import url(../blocks/form/__input/_field/form__input_field_first-name.css);
+@import url(../blocks/form/__input/_field/form__input_field_inn.css);
+@import url(../blocks/form/__input/_field/form__input_field_last-name.css);
+@import url(../blocks/form/__input/_field/form__input_field_phone-number.css);
+@import url(../blocks/form/__wrapper/form__wrapper.css);
+@import url(../blocks/form/__element/form__element.css);
+
 @import url(../blocks/order/order.css);

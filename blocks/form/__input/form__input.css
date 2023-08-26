@@ -1,0 +1,11 @@
+.form__input {
+  height: 27px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.form__input:focus ~ .form__label,
+.form__input:not(:placeholder-shown) ~ .form__label {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}

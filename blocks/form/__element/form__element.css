@@ -1,0 +1,6 @@
+.form__element {
+  position: relative;
+  height: 27px;
+  padding: 18px 0 19px;
+  display: flex;
+}

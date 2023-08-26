@@ -42,24 +42,14 @@
                   <span class="checkbox_visible"></span>
                 </label>
                 <h2 class="basket__title">Выбрать все</h2>
-                <img
-                  src="../src/images/accordion-icon.svg"
-                  alt="Аккордеон"
-                  width="20px"
-                  height="20px"
-                />
+                <img src="../src/images/accordion-icon.svg" alt="Аккордеон" width="20px" height="20px" />
               </article>
               <ul class="basket__list basket__list_availability"></ul>
             </section>
             <section class="basket basket_type_inactive">
               <article class="basket__selector">
                 <h2 class="basket__title basket__title_unavailability">Отсутствуют · 3 товара</h2>
-                <img
-                  src="../src/images/accordion-icon.svg"
-                  alt="Аккордеон"
-                  width="20px"
-                  height="20px"
-                />
+                <img src="../src/images/accordion-icon.svg" alt="Аккордеон" width="20px" height="20px" />
               </article>
               <ul class="basket__list basket__list_unavailability"></ul>
             </section>
@@ -96,8 +86,7 @@
                   </li>
                 </ul>
                 <p class="section-delivery__cost-shipping">
-                  Обратная доставка товаров на склад при отказе&nbsp;—&nbsp;<span
-                    class="section-delivery__fragment"
+                  Обратная доставка товаров на склад при отказе&nbsp;—&nbsp;<span class="section-delivery__fragment"
                     >бесплатно</span
                   >
                 </p>
@@ -109,6 +98,42 @@
                 </div>
                 <span class="section-payment">1234 56•• •••• 1234</span>
                 <p class="section-payment__text">Спишем оплату с карты при получении</p>
+              </section>
+              <section class="section" id="form">
+                <div class="section__wrapper">
+                  <h2 class="section__header">Получатель</h2>
+                </div>
+                <form class="form">
+                  <ul class="form__wrapper">
+                    <li class="form__element">
+                      <input
+                        class="form__input form__input_field_first-name"
+                        type="text"
+                        id="first-name"
+                        placeholder=" "
+                        required
+                      />
+                      <label for="first-name" class="form__label">Имя</label>
+                    </li>
+                    <li class="form__element">
+                      <label for="last-name" class="form__label">Фамилия</label>
+                      <input class="form__input form__input_field_last-name" type="text" id="last-name" required />
+                    </li>
+                    <li class="form__element">
+                      <label for="e-mail" class="form__label">Почта</label>
+                      <input class="form__input" type="text" id="e-mail" required />
+                    </li>
+                    <li class="form__element">
+                      <label for="phone-number" class="form__label">Телефон</label>
+                      <input class="form__input" type="text" id="phone-number" value="+7 988 123-45-67" required />
+                    </li>
+                    <li class="form__element">
+                      <label for="inn" class="form__label"></label>
+                      <input class="form__input" type="text" id="inn" required />
+                      <!-- <span>Для таможенного оформления</span> -->
+                    </li>
+                  </ul>
+                </form>
               </section>
             </div>
           </div>
@@ -146,13 +171,7 @@
             <li class="basket__quantity">
               <div class="counter">
                 <button type="button" class="button counter__minus"></button>
-                <input
-                  class="button counter__value"
-                  type="number"
-                  autocomplete="off"
-                  min="1"
-                  maxlength="2"
-                />
+                <input class="button counter__value" type="number" autocomplete="off" min="1" maxlength="2" />
                 <button type="button" class="button counter__plus"></button>
               </div>
               <p class="basket__remains"></p>
