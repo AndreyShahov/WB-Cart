@@ -103,5 +103,6 @@
 @import url(../blocks/form/__input/_field/form__input_field_phone-number.css);
 @import url(../blocks/form/__wrapper/form__wrapper.css);
 @import url(../blocks/form/__element/form__element.css);
+@import url(../blocks/form/__note/form__note.css);
 
 @import url(../blocks/order/order.css);
