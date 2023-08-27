@@ -1,0 +1,10 @@
+.footer__text {
+  margin: 23px 5px 0 4px;
+  align-self: center;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  column-gap: 9px;
+}

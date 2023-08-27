@@ -89,6 +89,7 @@
 @import url(../blocks/section-delivery/__counter/section-delivery__counter.css);
 @import url(../blocks/section-delivery/__cost-shipping/section-delivery__cost-shipping.css);
 @import url(../blocks/section-delivery/__fragment/section-delivery__fragment.css);
+@import url(../blocks/section-delivery/__box/section-delivery__box.css);
 
 @import url(../blocks/section-payment/section-payment.css);
 @import url(../blocks/section-payment/__text/section-payment__text.css);
@@ -106,3 +107,6 @@
 @import url(../blocks/form/__note/form__note.css);
 
 @import url(../blocks/order/order.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
