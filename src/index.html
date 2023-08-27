@@ -63,7 +63,7 @@
                   <li class="section-delivery__address">
                     <span class="section-delivery__label">Пункт выдачи</span>
                     <div class="section-delivery__box">
-                      <span>Бишкек, улица Ахматбека Суюмбаева, 12/1</span>
+                      <span id="address">Бишкек, улица Ахматбека Суюмбаева, 12/1</span>
                       <span class="section-delivery__office-hours">
                         <span class="section-delivery__rate">4.99</span>
                         Ежедневно с 10 до 21
@@ -85,12 +85,7 @@
                     </div>
                   </li>
                 </ul>
-                <p class="section-delivery__cost-shipping">
-                  Обратная доставка товаров на склад при отказе&nbsp;—&nbsp;<span
-                    class="section-delivery__fragment"
-                    >бесплатно</span
-                  >
-                </p>
+                <p class="cost-shipping">Обратная доставка товаров на склад при отказе —&thinsp;</p>
               </section>
               <section class="section" id="section-payment">
                 <div class="section__wrapper">
@@ -164,7 +159,39 @@
             </div>
           </div>
         </div>
-        <section class="order"></section>
+        <section class="order section">
+          <div class="section__wrapper">
+            <h2 class="section__header">Итого</h2>
+            <span class="order__total-price">2 101 063</span>
+          </div>
+          <ul class="order__content">
+            <li>
+              <ul class="order__product-info">
+                <li class="order__box">
+                  <h3 class="order__product-header">203 товара</h3>
+                  <span>2 302 048&nbsp;сом</span>
+                </li>
+                <li class="order__box">
+                  <h3 class="order__product-header">Скидка</h3>
+                  <span>−200 985&nbsp;сом</span>
+                </li>
+                <li class="order__box">
+                  <h3 class="order__product-header">Доставка</h3>
+                  <span>Бесплатно</span>
+                </li>
+              </ul>
+            </li>
+            <li class="order__delivery">
+              <div class="order__wrapper">
+                <h3 class="order__header">Доставка в пункт выдачи</h3>
+                <button class="button order__edit-btn" type="button"></button>
+              </div>
+              <p class="order__delivery-address"></p>
+            </li>
+            <li></li>
+            <li></li>
+          </ul>
+        </section>
       </main>
       <footer class="footer">
         <p class="footer__text">© 2022<span> ООО «Товары и точка»</span></p>

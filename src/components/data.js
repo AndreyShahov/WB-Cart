@@ -9,6 +9,10 @@ export const containerFirst = document.querySelector(".basket__list_availability
 export const containerSecond = document.querySelector(".basket__list_unavailability");
 export const photoContainerFirst = document.querySelector("#photosFirst");
 export const photoContainerSecond = document.querySelector("#photosSecond");
+export const address = document.querySelector("#address");
+export const deliveryAddress = document.querySelector(".order__delivery-address");
+export const costShipping = document.querySelector(".cost-shipping").cloneNode(true);
+export const container = document.querySelector(".order__delivery");
 
 export const items = [
   {

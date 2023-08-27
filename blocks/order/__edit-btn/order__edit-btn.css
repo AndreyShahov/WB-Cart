@@ -1,0 +1,6 @@
+.order__edit-btn {
+  width: 20px;
+  height: 20px;
+  background-image: url(../../../src/images/pencil-btn.svg);
+  background-position: center;
+}

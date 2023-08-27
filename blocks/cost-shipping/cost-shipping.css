@@ -1,4 +1,4 @@
-.section-delivery__cost-shipping {
+.cost-shipping {
   margin: 0;
   font-weight: 400;
   font-size: 13px;
@@ -8,8 +8,9 @@
   align-items: center;
 }
 
-.section-delivery__cost-shipping::before {
+.cost-shipping::before {
   content: "";
+  display: inline-block;
   width: 22px;
   height: 22px;
   margin-right: 8px;
@@ -17,4 +18,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  float: left;
+}
+
+.cost-shipping::after {
+  content: "бесплатно";
+  color: #0cb477;
+  border-bottom: 1px dashed rgba(12, 180, 119, 0.2);
 }

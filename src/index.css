@@ -87,9 +87,10 @@
 @import url(../blocks/section-delivery/__photos/section-delivery__photos.css);
 @import url(../blocks/section-delivery/__photo/section-delivery__photo.css);
 @import url(../blocks/section-delivery/__counter/section-delivery__counter.css);
-@import url(../blocks/section-delivery/__cost-shipping/section-delivery__cost-shipping.css);
-@import url(../blocks/section-delivery/__fragment/section-delivery__fragment.css);
 @import url(../blocks/section-delivery/__box/section-delivery__box.css);
+
+@import url(../blocks/cost-shipping/cost-shipping.css);
+@import url(../blocks/cost-shipping/_type/cost-shipping_type_order.css);
 
 @import url(../blocks/section-payment/section-payment.css);
 @import url(../blocks/section-payment/__text/section-payment__text.css);
@@ -107,6 +108,16 @@
 @import url(../blocks/form/__note/form__note.css);
 
 @import url(../blocks/order/order.css);
+@import url(../blocks/order/__content/order__content.css);
+@import url(../blocks/order/__total-price/order__total-price.css);
+@import url(../blocks/order/__box/order__box.css);
+@import url(../blocks/order/__product-info/order__product-info.css);
+@import url(../blocks/order/__product-header/order__product-header.css);
+@import url(../blocks/order/__delivery-address/order__delivery-address.css);
+@import url(../blocks/order/__header/order__header.css);
+@import url(../blocks/order/__wrapper/order__wrapper.css);
+@import url(../blocks/order/__edit-btn/order__edit-btn.css);
+@import url(../blocks/order/__delivery/order__delivery.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__text/footer__text.css);
