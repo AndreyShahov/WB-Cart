@@ -1,3 +1,13 @@
+import tShirt from "../images/t-shirt.jpg";
+import tShirtInactive from "../images/t-shirt-inactive.jpg";
+import casePhoto from "../images/case.jpg";
+import caseInactive from "../images/case-inactive.jpg";
+import pencils from "../images/pencils.jpg";
+import pencilsInactive from "../images/pencils-inactive.jpg";
+import tShirtMini from "../images/t-shirt-mini.jpg";
+import caseMini from "../images/case-mini.jpg";
+import pencilsMini from "../images/pencils-mini.jpg";
+
 export const listItemTemplate = document
   .querySelector("#basket__list-item")
   .content.querySelector(".basket__list-item");
@@ -16,8 +26,8 @@ export const container = document.querySelector(".order__delivery");
 
 export const items = [
   {
-    src: "./images/t-shirt.jpg",
-    srcInActive: "./images/t-shirt-inactive.jpg",
+    src: tShirt,
+    srcInActive: tShirtInactive,
     header: "Футболка UZcotton мужская",
     color: "Цвет: белый",
     size: "Размер: 56",
@@ -28,8 +38,8 @@ export const items = [
     priceOld: "1051",
   },
   {
-    src: "./images/case.jpg",
-    srcInActive: "./images/case-inactive.jpg",
+    src: casePhoto,
+    srcInActive: caseInactive,
     header:
       "Силиконовый чехол картхолдер (отверстия) для карт, прозрачный кейс бампер на Apple iPhone XR, MobiSafe",
     color: "Цвет: прозрачный",
@@ -41,8 +51,8 @@ export const items = [
     priceOld: "2 300 047",
   },
   {
-    src: "./images/pencils.jpg",
-    srcInActive: "./images/pencils-inactive.jpg",
+    src: pencils,
+    srcInActive: pencilsInactive,
     header: `Карандаши цветные Faber-Castell "Замок", набор 24 цвета, заточенные, шестигранные, Faber-Castell`,
     color: "",
     size: "",
@@ -55,9 +65,9 @@ export const items = [
 ];
 
 export const photoListFirst = [
-  { src: "./images/t-shirt-mini.jpg", number: 0 },
-  { src: "./images/case-mini.jpg", number: 184 },
-  { src: "./images/pencils-mini.jpg", number: 2 },
+  { src: tShirtMini, number: 0 },
+  { src: caseMini, number: 184 },
+  { src: pencilsMini, number: 2 },
 ];
 
-export const photoListSecond = [{ src: "./images/case-mini.jpg", number: 16 }];
+export const photoListSecond = [{ src: caseMini, number: 16 }];

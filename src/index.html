@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/src/index.css" />
     <title>WB Cart</title>
   </head>
   <body class="root">
@@ -13,11 +12,11 @@
           <div class="header__nav-wrapper">
             <button type="button" class="button header__nav-btn"></button>
           </div>
-          <img src="./images/header-logo.svg" alt="Логотип" />
+          <img src="<%=require('./images/header-logo.svg')%>" alt="Логотип" />
         </div>
         <div class="header__search">
           <input class="header__input" type="search" placeholder="Я ищу..." />
-          <img class="header__search-icon" src="./images/search.svg" alt="Поиск" />
+          <img class="header__search-icon" src="<%=require('./images/search.svg')%>" alt="Поиск" />
         </div>
         <div class="header__navbar">
           <a class="header__navbar-link" href="#">
@@ -42,14 +41,24 @@
                   <span class="checkbox_visible"></span>
                 </label>
                 <h2 class="basket__title">Выбрать все</h2>
-                <img src="../src/images/accordion-icon.svg" alt="Аккордеон" width="20px" height="20px" />
+                <img
+                  src="<%=require('../src/images/accordion-icon.svg')%>"
+                  alt="Аккордеон"
+                  width="20px"
+                  height="20px"
+                />
               </article>
               <ul class="basket__list basket__list_availability"></ul>
             </section>
             <section class="basket basket_type_inactive">
               <article class="basket__selector">
                 <h2 class="basket__title basket__title_unavailability">Отсутствуют · 3 товара</h2>
-                <img src="../src/images/accordion-icon.svg" alt="Аккордеон" width="20px" height="20px" />
+                <img
+                  src="<%=require('../src/images/accordion-icon.svg')%>"
+                  alt="Аккордеон"
+                  width="20px"
+                  height="20px"
+                />
               </article>
               <ul class="basket__list basket__list_unavailability"></ul>
             </section>
@@ -300,7 +309,5 @@
         </li>
       </template>
     </div>
-
-    <script type="module" src="./components/index.js"></script>
   </body>
 </html>

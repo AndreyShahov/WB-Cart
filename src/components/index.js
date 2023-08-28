@@ -1,3 +1,4 @@
+import "../index.css";
 import { addItem, addPhoto } from "./list-item.js";
 import {
   containerFirst,
