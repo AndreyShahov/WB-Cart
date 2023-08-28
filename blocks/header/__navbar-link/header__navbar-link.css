@@ -8,6 +8,11 @@
   font-weight: 400;
   font-size: 13px;
   line-height: 16px;
+  transition: opacity 0.3s linear;
+}
+
+.header__navbar-link:hover {
+  opacity: 0.8;
 }
 
 .header__navbar-link:link {
@@ -18,4 +23,10 @@
 .header__navbar-link:visited {
   color: white;
   text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .header__navbar-link {
+    margin-left: -2px;
+  }
 }
