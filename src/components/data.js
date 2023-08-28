@@ -13,8 +13,6 @@ export const address = document.querySelector("#address");
 export const deliveryAddress = document.querySelector(".order__delivery-address");
 export const costShipping = document.querySelector(".cost-shipping").cloneNode(true);
 export const container = document.querySelector(".order__delivery");
-export const elementCard = document.querySelector(".section-payment").cloneNode(true);
-export const paymentContainer = document.querySelector(".order__payment");
 
 export const items = [
   {

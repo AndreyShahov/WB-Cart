@@ -3,4 +3,5 @@
   justify-content: space-between;
   height: 24px;
   margin-bottom: 16px;
+  column-gap: 11px;
 }

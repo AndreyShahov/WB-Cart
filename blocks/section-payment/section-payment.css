@@ -5,7 +5,7 @@
   color: #000;
   display: flex;
   align-items: center;
-  margin-bottom: 8px;
+  margin: 4px 0 8px;
 }
 
 .section-payment::before {
@@ -17,9 +17,4 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-}
-
-.section-payment::after {
-  content: "01/30";
-  margin-left: 12px;
 }

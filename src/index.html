@@ -92,7 +92,9 @@
                   <h2 class="section__header">Способ оплаты</h2>
                   <button type="button" class="button section__btn-edit">Изменить</button>
                 </div>
-                <span class="section-payment">1234 56•• •••• 1234</span>
+                <span class="section-payment"
+                  >1234 56•• •••• 1234<span class="section-payment__span">01/30</span></span
+                >
                 <p class="section-payment__text">Спишем оплату с карты при получении</p>
               </section>
               <section class="section" id="form">
@@ -160,7 +162,7 @@
           </div>
         </div>
         <section class="order section">
-          <div class="section__wrapper">
+          <div class="section__wrapper order__title">
             <h2 class="section__header">Итого</h2>
             <span class="order__total-price">2 101 063</span>
           </div>
@@ -193,8 +195,25 @@
                 <h3 class="order__header">Оплата картой</h3>
                 <button class="button order__edit-btn" type="button"></button>
               </div>
+              <span class="section-payment order__text">1234 56•• •••• 1234</span>
+              <div class="order__container">
+                <label class="checkbox">
+                  <input class="checkbox_invisible" type="checkbox" />
+                  <span class="checkbox_visible"></span>
+                </label>
+                <p class="order__text">Списать оплату сразу</p>
+                <p class="order__text">Спишем оплату с карты при получении</p>
+              </div>
             </li>
-            <li></li>
+            <li>
+              <button type="submit" class="button order__save-btn">Заказать</button>
+              <p class="order__oferta">
+                Соглашаюсь с
+                <a class="order__link" href="#" target="_self">правилами пользования торговой площадкой </a>
+                и
+                <a class="order__link" href="#" target="_self">возврата</a>
+              </p>
+            </li>
           </ul>
         </section>
       </main>

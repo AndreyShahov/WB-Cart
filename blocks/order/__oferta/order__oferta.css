@@ -1,0 +1,21 @@
+.order__oferta {
+  margin: 12px 0 0;
+  min-height: 32px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000;
+}
+
+.order__oferta::before {
+  content: "";
+  width: 13px;
+  height: 24px;
+  background-image: url(../../../src/images/marker.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: inline-block;
+  float: left;
+  margin-right: 8px;
+}

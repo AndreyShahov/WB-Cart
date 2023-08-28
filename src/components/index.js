@@ -11,8 +11,6 @@ import {
   deliveryAddress,
   costShipping,
   container,
-  elementCard,
-  paymentContainer,
 } from "./data.js";
 import { createElement } from "./order.js";
 
@@ -24,4 +22,3 @@ photoListSecond.forEach((item) => addPhoto(item.src, photoContainerSecond, item.
 deliveryAddress.textContent = address.textContent;
 
 createElement(costShipping, container, "cost-shipping_type_order");
-createElement(elementCard, paymentContainer);
