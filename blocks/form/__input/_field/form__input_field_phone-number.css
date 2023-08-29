@@ -1,3 +1,9 @@
 .form__input_field_phone-number {
   width: 217.33px;
 }
+
+@media (max-width: 1257px) {
+  .form__input_field_phone-number {
+    width: 180.67px;
+  }
+}

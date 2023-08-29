@@ -1,6 +1,7 @@
 {
   "name": "wb-cart",
   "version": "1.0.0",
+  "homepage": "https://andreyshahov.github.io/WB-Cart/",
   "description": "",
   "main": "index.js",
   "scripts": {

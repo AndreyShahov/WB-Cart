@@ -1,5 +1,7 @@
 .content {
-  width: 100%;
+  width: calc(100% -48px);
   display: flex;
-  column-gap: 32px;
+  align-items: flex-start;
+  margin-left: 24px;
+  margin-right: 24px;
 }

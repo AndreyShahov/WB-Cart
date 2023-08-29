@@ -1,3 +1,9 @@
 .form__input_field_first-name {
   width: 338px;
 }
+
+@media (max-width: 1257px) {
+  .form__input_field_first-name {
+    width: 283px;
+  }
+}

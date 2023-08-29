@@ -2,3 +2,9 @@
   width: 217.33px;
   margin-bottom: 4px;
 }
+
+@media (max-width: 1257px) {
+  .form__input_field_inn {
+    width: 180.67px;
+  }
+}

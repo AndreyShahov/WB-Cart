@@ -5,3 +5,7 @@
   padding: 8px 8px 12px;
   display: block;
 }
+
+.cost-shipping_type_order::before {
+  height: 30px;
+}

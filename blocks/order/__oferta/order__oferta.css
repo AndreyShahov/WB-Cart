@@ -13,9 +13,20 @@
   height: 24px;
   background-image: url(../../../src/images/marker.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   background-size: contain;
   display: inline-block;
   float: left;
   margin-right: 8px;
+}
+
+@media (max-width: 1024px) {
+  .order__oferta {
+    max-width: 238px;
+    width: 100%;
+  }
+
+  .order__oferta::before {
+    height: 48px;
+  }
 }
