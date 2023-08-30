@@ -1,0 +1,11 @@
+.header__logo-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 596px) {
+  .header__logo-mobile {
+    display: block;
+    width: 198px;
+    height: 24px;
+  }
+}

@@ -22,3 +22,9 @@
     max-width: 594px;
   }
 }
+
+@media screen and (max-width: 596px) {
+  .header__input {
+    display: none;
+  }
+}

@@ -8,3 +8,11 @@
   border-radius: 8px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 596px) {
+  .header__nav-wrapper {
+    border: none;
+    max-width: 28px;
+    height: 28px;
+  }
+}

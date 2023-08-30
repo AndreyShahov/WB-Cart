@@ -3,3 +3,11 @@
   top: 34px;
   right: 23px;
 }
+
+@media screen and (max-width: 596px) {
+  .header__search-icon {
+    position: static;
+    margin-top: 18px;
+    margin-left: 3px;
+  }
+}

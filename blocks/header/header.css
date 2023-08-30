@@ -1,7 +1,7 @@
 .header {
   max-width: 1400px;
   width: 100%;
-  min-height: 112px;
+  height: 112px;
   position: relative;
   background-color: #6725a8;
   display: flex;
@@ -16,4 +16,12 @@
   min-height: 24px;
   border-radius: 24px 24px 0 0;
   background-color: #f6f6fa;
+}
+
+@media screen and (max-width: 596px) {
+  .header {
+    height: 80px;
+    column-gap: 16px;
+    justify-content: center;
+  }
 }

@@ -5,3 +5,10 @@
   background-image: url("../../../src/images/header-nav-btn.svg");
   align-self: center;
 }
+
+@media (max-width: 596px) {
+  .header__nav-btn {
+    background-image: url("../../../src/images/header__nav-btn-mobile.svg");
+    align-self: flex-start;
+  }
+}

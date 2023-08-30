@@ -12,7 +12,8 @@
           <div class="header__nav-wrapper">
             <button type="button" class="button header__nav-btn"></button>
           </div>
-          <img src="<%=require('./images/header-logo.svg')%>" alt="Логотип" />
+          <img class="header__logo" src="<%=require('./images/header-logo.svg')%>" alt="Логотип" />
+          <img class="header__logo-mobile" src="<%=require('./images/header-logo-mobile.svg')%>" alt="Логотип" />
         </div>
         <div class="header__search">
           <input class="header__input" type="search" placeholder="Я ищу..." />
@@ -231,73 +232,70 @@
       </footer>
       <template id="basket__list-item">
         <li class="basket__list-item">
-          <div class="basket__good">
-            <div class="basket__box">
-              <label class="checkbox">
-                <input class="checkbox_invisible" type="checkbox" />
-                <span class="checkbox_visible"></span>
-              </label>
-              <img class="basket__photo" />
-            </div>
-            <ul class="basket__description">
-              <li>
-                <h3 class="basket__header-item"></h3>
-              </li>
-              <li class="basket__wrapper">
-                <p class="basket__color"></p>
-                <p class="basket__size"></p>
-              </li>
-              <li class="basket__store">
-                <p class="basket__text" id="first"></p>
-                <div class="basket__title-box">
-                  <p class="basket__text" id="second"></p>
-                  <span class="basket__info-icon"></span>
-                </div>
-              </li>
-            </ul>
+          <div class="basket__box">
+            <label class="checkbox checkbox_type_card">
+              <input class="checkbox_invisible" type="checkbox" />
+              <span class="checkbox_visible"></span>
+            </label>
+            <img class="basket__photo" />
           </div>
-          <ul class="basket__container">
-            <li class="basket__quantity">
-              <div class="counter">
-                <button type="button" class="button counter__minus"></button>
-                <input class="button counter__value" type="number" autocomplete="off" min="1" maxlength="2" />
-                <button type="button" class="button counter__plus"></button>
-              </div>
-              <p class="basket__remains"></p>
-              <div class="basket__btn">
-                <button type="button" class="button basket__like-btn"></button>
-                <button type="button" class="button basket__cart-btn"></button>
-              </div>
+          <!-- <div class="basket__good"> -->
+          <ul class="basket__description">
+            <li>
+              <h3 class="basket__header-item"></h3>
             </li>
-            <li class="basket__price">
-              <div class="basket__cost">
-                <span class="basket__price-new"></span>
-                <span class="basket__currency">сом</span>
-              </div>
-              <div class="basket__price-old">
-                <span id="cost"></span>
-                <span>сом</span>
+            <li class="basket__wrapper">
+              <p class="basket__color"></p>
+              <p class="basket__size"></p>
+            </li>
+            <li class="basket__store">
+              <p class="basket__text" id="first"></p>
+              <div class="basket__title-box">
+                <p class="basket__text" id="second"></p>
+                <span class="basket__info-icon"></span>
               </div>
             </li>
           </ul>
+          <div class="basket__quantity">
+            <div class="counter">
+              <button type="button" class="button counter__minus"></button>
+              <input class="button counter__value" type="number" autocomplete="off" min="1" maxlength="2" />
+              <button type="button" class="button counter__plus"></button>
+            </div>
+            <p class="basket__remains"></p>
+            <div class="basket__btn">
+              <button type="button" class="button basket__like-btn"></button>
+              <button type="button" class="button basket__cart-btn"></button>
+            </div>
+          </div>
+          <div class="basket__price">
+            <div class="basket__cost">
+              <span class="basket__price-new"></span>
+              <span class="basket__currency">сом</span>
+            </div>
+            <div class="basket__price-old">
+              <span id="cost"></span>
+              <span>сом</span>
+            </div>
+          </div>
+          <!-- </div> -->
         </li>
       </template>
       <template id="basket__list-item_unavailability">
         <li class="basket__list-item">
-          <div class="basket__good">
-            <div class="basket__box">
-              <img class="basket__photo" />
-            </div>
-            <ul class="basket__description">
-              <li>
-                <h3 class="basket__header-item basket__header-item_inactive"></h3>
-              </li>
-              <li class="basket__wrapper">
-                <p class="basket__color basket__color_inactive"></p>
-                <p class="basket__size basket__size_inactive"></p>
-              </li>
-            </ul>
+          <div class="basket__box">
+            <img class="basket__photo" />
           </div>
+          <ul class="basket__description">
+            <li>
+              <h3 class="basket__header-item basket__header-item_inactive"></h3>
+            </li>
+            <li class="basket__wrapper">
+              <p class="basket__color basket__color_inactive"></p>
+              <p class="basket__size basket__size_inactive"></p>
+            </li>
+          </ul>
+
           <ul class="basket__container">
             <li class="basket__quantity">
               <div class="basket__btn">

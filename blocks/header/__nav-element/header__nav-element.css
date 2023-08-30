@@ -8,3 +8,12 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 596px) {
+  .header__nav-element {
+    max-width: 250px;
+    margin-top: 14px;
+    align-items: flex-start;
+    margin-left: 0;
+  }
+}

@@ -1,8 +1,16 @@
 .basket__description {
-  margin: 0;
+  margin: 12px 0 0;
   padding: 0;
+  max-width: 527px;
+  width: 100%;
   list-style-type: none;
   display: flex;
   flex-direction: column;
   row-gap: 8px;
+}
+
+@media screen and (max-width: 1020px) {
+  .basket__description {
+    max-width: 192px;
+  }
 }

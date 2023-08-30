@@ -6,8 +6,11 @@
 @import url(../blocks/checkbox/checkbox.css);
 @import url(../blocks/checkbox/_invisible/checkbox_invisible.css);
 @import url(../blocks/checkbox/_visible/checkbox_visible.css);
+@import url(../blocks/checkbox/_type/checkbox_type_card.css);
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo-mobile/header__logo-mobile.css);
 @import url(../blocks/header/__nav-element/header__nav-element.css);
 @import url(../blocks/header/__nav-wrapper/header__nav-wrapper.css);
 @import url(../blocks/header/__nav-btn/header__nav-btn.css);

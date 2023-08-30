@@ -9,3 +9,9 @@
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
+
+@media screen and (max-width: 1020px) {
+  .basket__price-new {
+    width: 55px;
+  }
+}
